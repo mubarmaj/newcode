@@ -42,7 +42,7 @@
 
     /***  bottom space ****/
     .home-block--square-images .col-md-4:nth-child(3), .home-block--square-images .col-md-4:nth-child(4), .home-block--square-images .col-md-4:nth-child(5), .home-block--square-images .col-md-4:nth-child(6) {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
     .home-block--store-features .row .col-md-4:nth-child(1), .home-block--store-features .row .col-md-4:nth-child(2) {
@@ -68,7 +68,11 @@
     }
 
     section:nth-of-type(4) {
-        padding-top: 2px !important;
+        padding-top: 0px !important;
+    }
+
+    .home-block:not(.home-block--bg):not(.home-block--main-slider) {
+        padding: 4px 0;
     }
 }
 
