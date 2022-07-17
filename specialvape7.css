@@ -1,0 +1,608 @@
+/* develope By Package +201002241591  3lwaaa@gmail.com - https://wa.me/201002241591 */
+@media only screen and (max-width: 767px) {
+    header .site-header {
+        padding: 0 !important;
+        background: #211f201c;
+    }
+
+    header.fixed-pinned .site-header {
+        background: #211f20;
+    }
+
+    header.fixed-pinned .site-header .site-header__cart a, header.fixed-pinned .site-header .header-side-panel-trigger {
+        color: #000 !important;
+    }
+
+    .site-header .container {
+        padding-right: 0px !important;
+    }
+
+    .site-header .theme-logo {
+        background: #211f20;
+        border-radius: 0 0 0 150px;
+        padding: 10px 0 10px 25px;
+        padding-right: 15px !important;
+    }
+
+    img[src="https://cdn.salla.sa/Kxojw/Oafi7c6Q6zaBSPIvHgZvOl68ra9ogaRW1e5ovZos.png"] {
+        content: url(https://cdn.salla.sa/Kxojw/05msTK6Yf1w3m16PVKA12PaYbqEMD1Yngil2byyF.png);
+    }
+
+    .home-block--square-images .col-md-4 {
+        width: 50%;
+    }
+
+    .home-block--square-images .col-md-4:nth-child(1), .home-block--square-images .col-md-4:nth-child(3), .home-block--square-images .col-md-4:nth-child(5) {
+        padding-left: 3px;
+    }
+
+    .home-block--square-images .col-md-4:nth-child(2), .home-block--square-images .col-md-4:nth-child(4), .home-block--square-images .col-md-4:nth-child(6) {
+        padding-right: 3px;
+    }
+
+    /***  bottom space ****/
+    .home-block--square-images .col-md-4:nth-child(3), .home-block--square-images .col-md-4:nth-child(4), .home-block--square-images .col-md-4:nth-child(5), .home-block--square-images .col-md-4:nth-child(6) {
+        padding-bottom: 20px;
+    }
+
+    .home-block--store-features .row .col-md-4:nth-child(1), .home-block--store-features .row .col-md-4:nth-child(2) {
+        width: 49%;
+        margin-bottom: 10px;
+    }
+
+    .home-block--store-features .row {
+        justify-content: space-between;
+    }
+
+    .home-block--store-features .row .col-md-4 {
+        background: #ffffff;
+    }
+
+    .home-block--square-images .banner--square {
+        margin: 0 0 6px;
+        border-radius: 5px;
+    }
+
+    section:nth-of-type(3) {
+        padding-bottom: 2px !important;
+    }
+
+    section:nth-of-type(4) {
+        padding-top: 2px !important;
+    }
+}
+
+.footer {
+    color: white;
+    margin-top: 3.5rem;
+}
+
+.footer,.testimonial-entry,.header-block--nav-wrapper,.btn--add-to-cart,ul.main-nav.mm-spn--open.mm-spn--parent,.side-panel__content {
+    background: linear-gradient(-45deg,#f7f3f4,#cdcdcd,#f7f3f4,#cdcdcd);
+    background-size: 400%400%;
+    animation: gradient 15s ease infinite
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%50%
+    }
+
+    50% {
+        background-position: 100%50%
+    }
+
+    100% {
+        background-position: 0%50%
+    }
+}
+
+.footer:before {
+    content: "";
+    background-image: url(https://cdn.salla.sa/QoDOa/ecsfGJ4JgyLUtHsJGCHhFYD3myl3PN7Br92HQrNH.png);
+    background-size: 418%;
+    display: block;
+    background-repeat: round;
+    transform: rotate( 180deg);
+    height: 150px;
+    margin: -52px -32px 1px 1px;
+}
+
+.footer .title--primary {
+    color: #ffffff!important;
+}
+
+.footer .footer-list li a {
+    color: #ffffff;
+}
+
+.nav-mobile .main-nav li a {
+    color: #211f20;
+}
+
+.product-block .btn--add-to-cart {
+    /* left: -1px; */
+    /* bottom: 15px; */
+    margin: 0;
+    border-radius: 50px !important;
+    position: inherit !important;
+    width: 90%;
+    margin: 6px 0;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.testimonial-entry {
+    background-color: #211f20;
+    border-radius: 8px;
+    color: #211f20!important;
+}
+
+.testimonial-entry__info div.title, .testimonial-entry__info div.title small {
+    color: #2c2c2c;
+}
+
+.product-block {
+    border: 1px solid #decaae;
+}
+
+header#site-header-outer,.top-header,header.fixed-pinned .site-header {
+    background: #ffffff;
+}
+
+.top-header .top-header__info li i, .top-header .top-header__info li span {
+    border-bottom: 0px;
+    color: #151515;
+}
+
+.top-header {
+    border-bottom: 0px;
+}
+
+header .site-header__cart a,.header-side-panel-trigger {
+    color: #151515 !important;
+}
+
+/* شاشة البداية  */
+body.store-home:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #211f20 url(https://cdn.salla.sa/Kxojw/05msTK6Yf1w3m16PVKA12PaYbqEMD1Yngil2byyF.png);
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 20% !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 3s
+}
+
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+/* شاشة البداية  */
+.nav-desktop ul .menu-item>a {
+    color: #ffffff;
+}
+
+.nav-desktop ul .menu-item:hover>a, .nav-desktop ul .menu-item:not(.mega-menu) .sub-menu ul li:hover>a, .nav-desktop ul .menu-item>a:hover {
+    color: #7c1818;
+}
+
+.feature-item__icon,.store-feature__icon,body > section.u-white.py-4 > div > div > div > div > div > i,.store-feature .title,.feature.d-flex.flex-column.justify-content-center.align-items-center {
+    margin-bottom: 0;
+    border: none;
+    position: relative;
+    top: 0px;
+    animation: float 4s ease-in-out infinite;
+    transition: all .4s ease;
+    perspective: 1000px;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.footer__bottom {
+    display: none;
+}
+
+.home-block--bg {
+    background: #ffffff;
+}
+
+.title--primary {
+    color: #211f20!important;
+}
+
+ul.footer-list.footer-list--row.footer-list--payment-methods {
+    background-color: #fafafa;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px -15px black;
+}
+
+@media only screen and (max-width: 767px) {
+    footer.footer .footer__top * {
+        text-align: center;
+    }
+
+    ul.footer-list.store-links-items {
+        flex-wrap: wrap !important;
+        flex-direction: row;
+    }
+
+    ul.footer-list.store-links-items li {
+        width: 50%;
+    }
+
+    ul.footer-list.footer-list--row.footer-list--social-links {
+        justify-content: space-evenly;
+        padding: 10px 15px;
+    }
+}
+
+/*HEADER*/
+.top-header {
+    background-color: #ffffff !important;
+    border: none;
+}
+
+.top-header .top-header__info>li>a * {
+    color: #000000
+}
+
+.top-header .top-header__info li:hover i, .top-header .top-header__info li:hover span {
+    color: #8e0417
+}
+
+button.btn.btn--oval.btn--grey.btn--dropdown-toggle.dropdown-trigger.grey.no-p {
+    height: 100% !important;
+}
+
+.top-header .d-flex button, input#searchbox {
+    border: 2px solid #000000;
+    background-color: transparent;
+    color: #000000
+}
+
+input#searchbox {
+    border: 3px solid var(--color-main);
+}
+
+header#site-header-outer .site-header {
+    background-color: #ffffff;
+}
+
+.site-header__wrapper .site-header__cart #main-cart-btn {
+    color: #000000 !important;
+}
+
+.site-header__wrapper .site-header__cart>a>.sicon-heart {
+    color: #8e0417 !important
+}
+
+.site-header__wrapper .theme-logo div span {
+    color: #8e0417 !important
+}
+
+@media only screen and (max-width: 767px) {
+    .site-header__wrapper .site-header__cart #main-cart-btn {
+        color: #000000 !important;
+    }
+
+    input#searchbox {
+        background-color: #ffffff !important;
+        color: #000000
+    }
+
+    .form--search {
+        border-top: none
+    }
+}
+
+section.hero {
+    background-color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: none;
+}
+
+.nav-desktop--horizontal>ul {
+    justify-content: center
+}
+
+section.hero nav>ul>li.menu-item>a {
+    color: var(--color-text);
+    padding: 15px 10px;
+    font-size: 17.2px!important;
+}
+
+section.hero.header-block.header-block--nav-wrapper>div>nav>ul>li:hover>a {
+    color: #ffffff;
+    background-color: #8e0417;
+}
+
+.nav-desktop ul .menu-item.active>a {
+    background-color: #8e0417
+}
+
+.sub-menu>.sub-menu__inner {
+    background-color: #8e0417;
+    box-shadow: 0 0 5px -2px #000
+}
+
+section.hero .menu-item .sub-menu>.sub-menu__inner>ul>li>a {
+    color: #fff
+}
+
+section.hero .menu-item .sub-menu>.sub-menu__inner>ul>li>a:hover {
+    color: #000
+}
+
+ul.main-nav.mm-spn--open.mm-spn--parent {
+    background-color: #8e0417;
+}
+
+ul.main-nav.mm-spn--open.mm-spn--parent>li>a {
+    color: #000000;
+}
+
+.side-panel__content {
+    background-color: #8e0417
+}
+
+.side-panel .store-about p {
+    color: #000000;
+}
+
+.side-panel .switchers>div * {
+    background-color: #8e0417!important;
+    color: #000000;
+    border: none
+}
+
+.side-panel__content ul.footer-list.footer-list--row.footer-list--social-links li a {
+    color: #fff
+}
+
+.side-panel .dropdonw-menu-wrap .btn.dropdown-trigger:after, .side-panel .top-header__info li>a *, a.mobile-search-trigger.header-side-panel-trigger.d-md-none.ml-2, a.side-panel-trigger.header-side-panel-trigger.d-md-none.ml-2 {
+    color: #000000;
+}
+
+.side-panel .store-about img {
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+    transform: scale(1.15);
+}
+
+/***HEADER*/
+/*PRODUCTS*/
+section.home-block.home-block--bg.home-block--slide-products {
+    background: 0 0
+}
+
+.product-block {
+    border-radius: 17px;
+    box-shadow: 0 1px 5px 0 #a8a8a8;
+}
+
+.product-block:hover {
+    transform: scale(1.04);
+    transition: transform .2s;
+    border: 3px solid #a8a8a8;
+}
+
+.splide__arrows>button {
+    background-color: var(--color-main);
+}
+
+.splide__arrows>button svg {
+    fill: #ffffff
+}
+
+i.sicon-shopping-bag {
+    color: #4c4c4c;
+}
+
+button.btn.btn--floated.btn--add-to-cart:hover {
+    transform: scale(1.1)
+}
+
+.home-block--slide-products .splide__arrows {
+    width: 90%!important;
+    top: 50%!important;
+    left: 50%!important;
+    margin: 0!important;
+    transform: translate(-50%, -50%)!important;
+    z-index: 3;
+    height: 50px!important
+}
+
+.home-block--slide-products .splide--products-slider .splide__arrows button {
+    width: 50px;
+    height: 50px
+}
+
+/***PRODUCTS*/
+/*FEATURES*/
+.store-feature__icon {
+    background-color: var(--color-main);
+    color: #fff;
+}
+
+/***FEATURES*/
+/*CUSTOMER REVIEWS*/
+.testimonial-entry {
+    border: 5px solid #d0d0d0;
+}
+
+/***CUSTOMER REVIEWS*/
+/*FOOTER*/
+footer.footer {
+    background-color: #8e0417;
+    color: #fff
+}
+
+footer.footer *, footer.footer .title.title--primary {
+    color: #211f20!important;
+}
+
+footer.footer .title.title--primary:before {
+    background-color: #000000 !important;
+}
+
+.title.title--primary.title--has-dash.mb-20 {
+    font-weight: 400
+}
+
+ul.footer-list.footer-list--row.footer-list--social-links li:hover a i {
+    color: #8e0417!important
+}
+
+.container.footer__mid {
+    border-top: none
+}
+
+.container.footer__mid .row>div {
+    max-width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%
+}
+
+.container.footer__mid .row>div>ul {
+    justify-content: center;
+    padding-bottom: 1%
+}
+
+.container.footer__mid .row>div>div {
+    justify-content: center
+}
+
+@media only screen and (min-width: 990px) {
+    .footer__bottom .container {
+        flex-direction: column
+    }
+}
+
+.footer__bottom {
+    background: 0 0
+}
+
+/***FOOTER*/
+ul.footer-list.store-links-items {
+    flex-wrap: wrap !important;
+    flex-direction: row;
+}
+
+ul.footer-list.store-links-items li {
+    width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    footer.footer .footer__top * {
+        text-align: center;
+    }
+
+    footer.footer .title.title--primary {
+        padding-right: 0;
+    }
+
+    footer.footer .title.title--primary:before {
+        content: none;
+    }
+
+    .footer__block .store-contact-info ul.footer-list li a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__block .store-contact-info ul.footer-list li a i {
+        margin-bottom: 10px;
+        margin-left: 0;
+        font-size: 1.5em;
+    }
+
+    ul.footer-list.footer-list--row.footer-list--social-links {
+        justify-content: space-evenly;
+        padding: 10px 15px;
+    }
+
+    ul.footer-list.footer-list--row.footer-list--social-links li a i {
+        font-size: 1.3em;
+    }
+}
+
+.store-contact-info {
+    width: 100%;
+}
+
+.nav-desktop ul .menu-item .offers-link {
+    color: #ffffff!important;
+    background-color: var(--color-main-d)!important;
+    border-radius: 30px 15px;
+}
+
+.header-block--nav-wrapper {
+    /* background: linear-gradient(to bottom, #f0424a, #f0434b); */
+    background-color: #f59ba0;
+}
+
+.splide--products-slider .splide__slide .product-block, .product-block {
+    background: #f9f9f9;
+    box-shadow: 0 0 9px #bbb;
+}
+
+.btn--add-to-cart.disabled:before {
+    display: none;
+}
+
+.product-block .btn--add-to-cart i.sicon-shopping-bag::after {
+    content: "أضف للسلة";
+    padding-right: 5px;
+    font-family: 'DINNextLTArabic-Regular';
+}
+
+.btn--add-to-cart.disabled i.sicon-shopping-bag::after {
+    content: "نفذت الكمية";
+    padding-right: 5px;
+    font-family: 'DINNextLTArabic-Regular';
+    color: white !important;
+}
+
+button.btn.btn--floated.btn--add-to-cart.disabled {
+    background: #161616 !important;
+    color: white !important;
+}
+
+.btn--add-to-cart {
+    background: #f0edee;
+}
